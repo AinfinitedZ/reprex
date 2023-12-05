@@ -7,6 +7,6 @@ export function main(): void {
   mod.AddCallback(
     ModCallback.PRE_USE_ITEM,
     activeOnUse,
-    Isaac.GetItemIdByName("The D6"),
+    Isaac.GetItemIdByName("The D6")
   );
 }
